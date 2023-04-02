@@ -1,0 +1,13 @@
+name: farmOS OpenTrees
+type: module
+description: OpenTrees module for SBS Boston Hackathon.
+package: farmOS Contrib
+core_version_requirement: ^9
+dependencies:
+  - drupal:datetime
+  - farm_observation
+  - farm_location
+  - farm_plant
+  - farm_quick
+  - farm_seeding
+  - farm_transplanting

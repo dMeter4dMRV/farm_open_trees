@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - farm_opentrees
+id: tree
+label: Tree
+description: ''
+workflow: asset_default
+new_revision: true
+third_party_settings:
+  farm_location:
+    is_location: false
+    is_fixed: true
