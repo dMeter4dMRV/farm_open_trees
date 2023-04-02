@@ -1,0 +1,3 @@
+create_co2_asset:
+  js:
+    js/co2-storage/dist/create-co2-asset.js: { }
