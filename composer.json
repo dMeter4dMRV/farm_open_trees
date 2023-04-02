@@ -1,11 +1,12 @@
 {
-  "name": "paul121/farm_contrib_template",
-  "description": "Example farmOS contrib module.",
+  "name": "paul121/farm_opentrees",
+
+  "description": "OpenTrees module for SBS Boston Hackathon.",
   "type": "drupal-module",
   "authors": [
       {
-          "name": "Author name",
-          "email": "info@farmos.org"
+          "name": "Paul Weidner",
+          "email": "paul.weidner@gmail.com"
       }
   ],
   "require": {
