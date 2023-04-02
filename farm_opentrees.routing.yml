@@ -1,0 +1,12 @@
+farm_opentreses.data:
+  path: '/asset/{asset}/open-tree/json'
+  defaults:
+    _controller: Drupal\farm_opentrees\Controller\OpenTree::data
+  requirements:
+    _entity_bundles: asset:tree
+    _entity_access: asset.view
+    asset: \d+
+  options:
+    parameters:
+      asset:
+        type: entity:asset
